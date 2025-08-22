@@ -4,7 +4,8 @@
 
 1. リポジトリをクローンする
 2. `env.template` に基づいて `.env` ファイルを作成する 
-3. `docker compose up --build` の実行
+3. `git submodule update --init --recursive` の実行
+4. `docker compose up --build` の実行
 
 
 
